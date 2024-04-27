@@ -1,0 +1,107 @@
+/* Write your code here. */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 576px) {
+  .bg-conatiner {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bg-conatiner h1 {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Bree serif';
+    padding: 10px;
+  }
+  .bg-conatiner div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn1 {
+    background-color: #eab308;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin: 8px;
+  }
+  .btn2 {
+    background-color: #ffffff;
+    color: #323f4b;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin: 8px;
+  }
+  .btn3 {
+    background-color: #1d4ed8;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg-conatiner {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bg-conatiner h1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Roboto';
+    padding: 10px;
+  }
+  .bg-conatiner div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn1 {
+    background-color: #eab308;
+    color: #ffffff;
+    height: 60px;
+    width: 140px;
+    border: none;
+    margin: 8px;
+    font-size: 30px;
+    padding: 20px;
+  }
+  .btn2 {
+    background-color: #ffffff;
+    color: #323f4b;
+    height: 60px;
+    width: 200px;
+    border: none;
+    margin: 8px;
+    font-size: 30px;
+    padding: 20px;
+  }
+  .btn3 {
+    background-color: #1d4ed8;
+    color: #ffffff;
+    height: 60px;
+    width: 140px;
+    border: none;
+    margin: 8px;
+    font-size: 30px;
+    padding: 20px;
+  }
+}
